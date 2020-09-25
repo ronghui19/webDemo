@@ -1,0 +1,38 @@
+/* home */
+.jumbotron {
+    background: url(../images/test.jpg) no-repeat;
+    color: aliceblue;
+    background-size: 100%;
+    height: 500px;
+}
+
+.demo-header {
+    padding-bottom:50px;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+}
+
+.img-box {
+    background-color: #ebebeb;
+    /* border: 1px; */
+}
+
+/* contact */
+.btn-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
